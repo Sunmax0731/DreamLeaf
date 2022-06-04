@@ -41,61 +41,21 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.render-pipelines.core": {
-      "version": "10.9.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.render-pipelines.high-definition": {
-      "version": "10.9.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "10.9.0",
-        "com.unity.shadergraph": "10.9.0",
-        "com.unity.visualeffectgraph": "10.9.0",
-        "com.unity.render-pipelines.high-definition-config": "10.9.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.render-pipelines.high-definition-config": {
-      "version": "10.9.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "10.9.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.searcher": {
-      "version": "4.3.2",
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.0.2",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.services.core": {
-      "version": "1.0.1",
+      "version": "1.4.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.modules.unitywebrequest": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.shadergraph": {
-      "version": "10.9.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "10.9.0",
-        "com.unity.searcher": "4.3.2"
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.modules.androidjni": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -140,16 +100,6 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "com.unity.visualeffectgraph": {
-      "version": "10.9.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.shadergraph": "10.9.0",
-        "com.unity.render-pipelines.core": "10.9.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.visualscripting": {
       "version": "1.7.8",
       "depth": 0,
@@ -159,6 +109,32 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.vrmc.gltf": {
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.99.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.99.0"
+      },
+      "hash": "f9ee070a7bc2a4f124795103c22bac2af9f8a241"
+    },
+    "com.vrmc.univrm": {
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.99.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.99.0",
+        "com.vrmc.gltf": "0.99.0"
+      },
+      "hash": "f9ee070a7bc2a4f124795103c22bac2af9f8a241"
+    },
+    "com.vrmc.vrmshaders": {
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.99.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f9ee070a7bc2a4f124795103c22bac2af9f8a241"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
