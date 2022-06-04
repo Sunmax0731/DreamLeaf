@@ -58,3 +58,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Assets以下
+/Assets/UniGLTF*
+/Assets/VRM*
+/Assets/VRMShaders*
