@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.unity.cinemachine": {
+      "version": "2.8.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.collab-proxy": {
       "version": "1.15.17",
       "depth": 0,
@@ -121,6 +128,16 @@
     },
     "com.vrmc.univrm": {
       "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.99.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.99.0",
+        "com.vrmc.gltf": "0.99.0"
+      },
+      "hash": "f9ee070a7bc2a4f124795103c22bac2af9f8a241"
+    },
+    "com.vrmc.vrm": {
+      "version": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM10#v0.99.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
